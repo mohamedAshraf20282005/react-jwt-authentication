@@ -1,12 +1,12 @@
-import Content from "./Content";
-
 import './css/home.css'
+import LeftHome from './LeftHome';
+import RightHome from './RightHome';
 
 function Home() {
     return(
         <div className="home">
-            <Content/>
-
+            <RightHome/>
+            <LeftHome/>
         </div>
     )
 }

@@ -1,0 +1,41 @@
+
+.task .task-container {
+    background-color: #DDCBAF;
+    height: 40px;
+    width: 60%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 50px;
+    color: black;
+    position: relative;
+    box-shadow: 5px 0 8px rgb(8, 7, 7);
+    transition: 0.4s;
+}
+
+.task .task-container:hover{
+    scale: 1.03;
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.task .task-container .btns-container{
+    display: flex;
+    column-gap: 5px ;
+}
+
+.task .task-container .btns-container button {
+    outline: none;
+    border: none;
+    padding:4px 5px;
+    border-radius: 4px;
+    background-color: #976b24;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.leftHome {
+    background-color:#ddcbaf5d;
+    display: flex;
+    justify-content: center;
+    padding:100px 0;
+    
+}
+
+.leftHome .progress-box {
+    background-color: #DDCBAF;
+    height: 300px;
+    width: 400px;
+    border-radius: 8% ;
+    padding:20px 20px;
+    color: black;
+    position: relative;
+    box-shadow: 8px 11px 0px rgb(8, 7, 7);
+    display: grid;
+    grid-template-rows: 20% 1fr;
+    
+}
+.leftHome .progress-box .box-title{
+    display: flex;
+    justify-content: center;
+}
+
+.leftHome .progress-box .box-content{
+    display: flex;
+    flex-direction: column;
+    row-gap:20px ;
+    font-size: 18px;
+    font-weight: bold;
+}
