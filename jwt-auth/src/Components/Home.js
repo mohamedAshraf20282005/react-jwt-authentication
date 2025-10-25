@@ -5,8 +5,8 @@ import RightHome from './RightHome';
 function Home() {
     return(
         <div className="home">
-            <RightHome/>
             <LeftHome/>
+            <RightHome/> 
         </div>
     )
 }

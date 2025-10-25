@@ -1,10 +1,11 @@
 .rightHome {
-    background-color:#ddcbaf5d;
-    padding:30px 50px;
-    display: grid;
-    grid-template-rows: 10% 1fr;
+  background-color: #ddcbaf5d;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
 }
 
 .rightHome h1 {
-    text-shadow: 3px 2px #ddcbaf5d;
+  text-shadow: 3px 2px #ddcbaf5d;
 }
